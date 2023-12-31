@@ -2,7 +2,7 @@ const jsonserver = require('json-server')
 
 const restserver = jsonserver.create()
 
-const router = jsonserver.router()
+const router = jsonserver.router('db.json')
 
 const middleware = jsonserver.defaults()
 
